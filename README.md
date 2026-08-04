@@ -40,14 +40,14 @@ I work in PHP/Laravel, Python, TypeScript, React, Vue and Next.js — and in bot
 
 | Project | Description | Stack |
 |---|---|---|
-| [rag-doc-qa](https://github.com/moriyama-dev/rag-doc-qa) | Upload documents, ask questions in natural language — retrieval-augmented Q&A | Claude API · pgvector · RAG |
-| [parlour](https://github.com/moriyama-dev/parlour) | Client communication & approval portal — real-time messaging, immutable approval logs, invoicing, PWA | Laravel 11 · Vue 3 · SPA |
-| [wp-ai-assistant-plugin](https://github.com/moriyama-dev/wp-ai-assistant-plugin) | AI chat panel in the WordPress editor — drafting, alt-text, SEO meta | Claude API · PHP · WordPress |
-| [ai-landing-page-generator](https://github.com/moriyama-dev/ai-landing-page-generator) | AI-powered sales landing page generator | Next.js · Claude API · Stripe |
-| [homelab-iac](https://github.com/moriyama-dev/homelab-iac) | Infrastructure as Code for a self-hosted lab | TrueNAS · KVM · Tailscale · Ansible · Docker |
+| [parlour](https://github.com/moriyama-dev/parlour) | Client communication & approval portal — real-time messaging, immutable approval logs, invoicing, PWA push. [Live demo](https://parlour.takumi.ca) | Laravel 11 · Vue 3 · SPA |
+| [ai-landing-page-generator](https://github.com/moriyama-dev/ai-landing-page-generator) | AI-powered sales landing page generator with Stripe checkout | Next.js · Claude API · Stripe |
+| [headless-wp-portfolio](https://github.com/moriyama-dev/headless-wp-portfolio) | WordPress as a headless CMS behind a typed Next.js frontend. [Live](https://headless-wp-portfolio.vercel.app) | WordPress · Next.js · TypeScript · Vercel |
+| [wordpress-ci-cd](https://github.com/moriyama-dev/wordpress-ci-cd) | Production CI/CD pipeline — lint, PHPUnit, auto-deploy on push | GitHub Actions · PHPUnit |
+| [wp-modern-block-plugin](https://github.com/moriyama-dev/wp-modern-block-plugin) | Gutenberg custom block built with OOP PHP, Composer and @wordpress/scripts | WordPress · PHP · Gutenberg |
+| [wp-webhook-notifier](https://github.com/moriyama-dev/wp-webhook-notifier) | JSON webhooks on publish — wires WordPress into n8n, Zapier or Make | PHP · WordPress · Automation |
+| [wp-content-digest](https://github.com/moriyama-dev/wp-content-digest) | Scheduled HTML digest email of recent posts, via WP-Cron | PHP · WordPress · WP-Cron |
 | [takumi-private-gate](https://github.com/moriyama-dev/takumi-private-gate) | Lock down a private WordPress site — forced login, REST/XML-RPC blocking, lockout | PHP · WordPress · Security |
-| [wordpress-ci-cd](https://github.com/moriyama-dev/wordpress-ci-cd) | Production CI/CD pipeline — lint, PHPUnit, auto-deploy | GitHub Actions · PHPUnit |
-| [headless-wp-portfolio](https://github.com/moriyama-dev/headless-wp-portfolio) | Headless WordPress with a modern frontend | WordPress · Next.js · TypeScript · Vercel |
 
 ---
 
