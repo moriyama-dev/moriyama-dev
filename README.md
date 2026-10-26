@@ -1,18 +1,20 @@
 # Yoshiro Moriyama
 
-**AI-Enabled Full Stack Developer — 14 years shipping and operating production systems**
+**Full-stack web developer: PHP/Laravel, WordPress, Vue and TypeScript. 14 years building and running production sites for paying clients.**
 
-Richmond Hill, Ontario 🇨🇦 (Greater Toronto Area) · Open to remote and hybrid roles — permanent or contract
+Richmond Hill, Ontario 🇨🇦 (Greater Toronto Area) · Open to remote or hybrid roles, permanent or contract · English / 日本語
 
 ---
 
 ## About
 
-I build web applications end to end and keep them running — API, database, infrastructure, security and cost control. Fourteen years of that has been for paying clients, most of whom are still with me.
+Since 2012 I've run Takumi Web Services, a one-person web studio in the Toronto area. I don't just hand over a site and leave. I build it, then I keep it running: hosting, updates, backups, security, the lot. Most of my clients have been with me for years.
 
-Lately my work centres on **RAG and LLM integration**: vector search with pgvector, embedding pipelines, streaming responses, and the unglamorous parts that decide whether an AI feature survives contact with production — rate limiting, API budget control, worker tuning.
+Most days that means WordPress and PHP. When a client needs a real application, I use Laravel for the API and Vue 3 with TypeScript for the front end. And when a WordPress site needs something no plugin does well, I write the plugin myself. Four of them are below, one is on WordPress.org.
 
-I work in PHP/Laravel, Python, TypeScript, React, Vue and Next.js — and in both Japanese and English, translating requirements between the two.
+Lately I've been adding AI to client work: Claude API integrations, RAG search on PostgreSQL + pgvector, and the less exciting parts that keep it affordable in production, like rate limits and API budget caps.
+
+I work in Japanese and English. A lot of my job is translating requirements between the two.
 
 ---
 
@@ -20,17 +22,16 @@ I work in PHP/Laravel, Python, TypeScript, React, Vue and Next.js — and in bot
 
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![WordPress](https://img.shields.io/badge/WordPress-21759B?style=flat&logo=wordpress&logoColor=white)
 ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vuedotjs&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL_+_pgvector-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![Claude API](https://img.shields.io/badge/Claude_API-D97757?style=flat&logo=anthropic&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![WordPress](https://img.shields.io/badge/WordPress-21759B?style=flat&logo=wordpress&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white)
 ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat&logo=stripe&logoColor=white)
 
@@ -38,16 +39,24 @@ I work in PHP/Laravel, Python, TypeScript, React, Vue and Next.js — and in bot
 
 ## Featured Projects
 
-| Project | Description | Stack |
+| Project | What it does | Stack |
 |---|---|---|
-| [parlour](https://github.com/moriyama-dev/parlour) | Client communication & approval portal — real-time messaging, immutable approval logs, invoicing, PWA push. [Live demo](https://parlour.takumi.ca) | Laravel 11 · Vue 3 · SPA |
-| [ai-landing-page-generator](https://github.com/moriyama-dev/ai-landing-page-generator) | AI-powered sales landing page generator with Stripe checkout | Next.js · Claude API · Stripe |
-| [headless-wp-portfolio](https://github.com/moriyama-dev/headless-wp-portfolio) | WordPress as a headless CMS behind a typed Next.js frontend. [Live](https://headless-wp-portfolio.vercel.app) | WordPress · Next.js · TypeScript · Vercel |
-| [wordpress-ci-cd](https://github.com/moriyama-dev/wordpress-ci-cd) | WordPress CI starter — WPCS and PHPUnit on every push, with deploy and scheduled-update workflows included | GitHub Actions · PHPUnit · WPCS |
-| [wp-modern-block-plugin](https://github.com/moriyama-dev/wp-modern-block-plugin) | Gutenberg custom block built with OOP PHP, Composer and @wordpress/scripts | WordPress · PHP · Gutenberg |
-| [wp-webhook-notifier](https://github.com/moriyama-dev/wp-webhook-notifier) | JSON webhooks on publish — wires WordPress into n8n, Zapier or Make | PHP · WordPress · Automation |
-| [wp-content-digest](https://github.com/moriyama-dev/wp-content-digest) | Scheduled HTML digest email of recent posts, via WP-Cron | PHP · WordPress · WP-Cron |
-| [takumi-private-gate](https://github.com/moriyama-dev/takumi-private-gate) | Lock down a private WordPress site — forced login, REST/XML-RPC blocking, lockout | PHP · WordPress · Security |
+| [parlour](https://github.com/moriyama-dev/parlour) | Client portal for freelance developers: approvals with an append-only log, real-time messaging, invoicing, PWA push. Runs in production. [Try the demo](https://demo-customer-portal.takumi.ca/) | Laravel 13 · Vue 3 · PHPUnit · GitHub Actions |
+| [takumi-private-gate](https://github.com/moriyama-dev/takumi-private-gate) | Makes a WordPress site fully private: forced login, REST API and XML-RPC blocking, lockout after failed logins. [On WordPress.org](https://wordpress.org/plugins/takumi-private-gate/) | PHP · WordPress · Security |
+| [mail-vitals](https://github.com/moriyama-dev/mail-vitals) | Finds out why WordPress email isn't arriving (SPF, DKIM, DMARC, server setup) and logs every message the site sends, with a retry queue. | PHP · WordPress · SMTP |
+| [takumi-vault](https://github.com/moriyama-dev/takumi-vault) | Scheduled database and file backups with one-click restore. Archives live outside the web root, old generations get pruned. | PHP · WordPress · WP-Cron |
+| [takumi-pwa](https://github.com/moriyama-dev/takumi-pwa) | Turns a WordPress site into an installable app with zero setup: manifest, service worker, icons, offline reading. | PHP · WordPress · PWA |
+| [droptime](https://github.com/moriyama-dev/droptime) | Swim meet results for a club's parents and swimmers: latest time vs. previous, progress per event, rank among same-age peers. | PHP 8.2 · MySQL |
+
+## Side Projects
+
+Tools I made for my own Linux desktop. Small, but I use them every day.
+
+- [shiraki](https://github.com/moriyama-dev/shiraki): a quiet code editor built on Code - OSS, Japanese UI by default
+- [tsugite](https://github.com/moriyama-dev/tsugite): terminal-first SSH client with Tailscale built in (fork of Tabby)
+- [masame](https://github.com/moriyama-dev/masame): lightweight text editor (Lua)
+- [hitoiki](https://github.com/moriyama-dev/hitoiki): GNOME pomodoro timer with a full-screen break reminder (Python)
+- [Web-App-Nagi](https://github.com/moriyama-dev/Web-App-Nagi): PWA that quietly tells you when a conversation is getting heated
 
 ---
 
@@ -60,8 +69,10 @@ I work in PHP/Laravel, Python, TypeScript, React, Vue and Next.js — and in bot
 
 ## 日本語
 
-カナダ・オンタリオ州（トロント近郊）在住のフルスタックデベロッパーです。
+カナダ・オンタリオ州（トロント近郊）在住のフルスタックWebデベロッパーです。
 
-フリーランスとして14年、カナダおよび日本市場のクライアント向けに、Webシステムの設計・構築・運用を一貫して担当してきました。現在はRAG・LLM連携（Claude API、pgvectorによるベクトル検索）を軸に、Laravel・Next.js・TypeScriptでの開発を行っています。
+2012年から個人で Takumi Web Services を運営し、カナダと日本のクライアントのWebサイトを作って、その後の運用まで一人で見ています。普段はWordPressとPHPが中心で、アプリが必要な案件ではLaravel（API）とVue 3 + TypeScriptを使います。既存のプラグインで足りない部分は自分でプラグインを書いてきました。
 
-日英バイリンガルで、要件の翻訳・橋渡しも含めて対応できます。フルタイム・契約いずれも、リモートまたはハイブリッドのポジションを探しています。
+最近はClaude APIやpgvectorを使ったRAG検索など、AI機能を実案件に組み込む仕事も増えています。
+
+日英バイリンガルで、両言語の間で要件を橋渡しすることも多いです。フルタイム・契約どちらでも、リモートまたはハイブリッドのポジションを探しています。
