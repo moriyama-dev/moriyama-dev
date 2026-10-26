@@ -50,13 +50,13 @@ I work in Japanese and English. A lot of my job is translating requirements betw
 
 ## Side Projects
 
-Tools I made for my own Linux desktop. Small, but I use them every day.
+Things I build for my own Linux desktop and workflow. Some are finished, some are still in progress.
 
 - [shiraki](https://github.com/moriyama-dev/shiraki): a quiet code editor built on Code - OSS, Japanese UI by default
 - [tsugite](https://github.com/moriyama-dev/tsugite): terminal-first SSH client with Tailscale built in (fork of Tabby)
-- [masame](https://github.com/moriyama-dev/masame): lightweight text editor (Lua)
-- [hitoiki](https://github.com/moriyama-dev/hitoiki): GNOME pomodoro timer with a full-screen break reminder (Python)
-- [Web-App-Nagi](https://github.com/moriyama-dev/Web-App-Nagi): PWA that quietly tells you when a conversation is getting heated
+- [masame](https://github.com/moriyama-dev/masame): lightweight text editor based on Lite XL
+- [hitoiki](https://github.com/moriyama-dev/hitoiki): GNOME pomodoro timer with a full-screen break reminder (in progress)
+- [Web-App-Nagi](https://github.com/moriyama-dev/Web-App-Nagi): design notes for a PWA that tells you when a conversation is getting heated
 
 ---
 
