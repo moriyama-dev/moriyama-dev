@@ -10,9 +10,9 @@ Richmond Hill, Ontario 🇨🇦 (Greater Toronto Area) · Open to remote or hybr
 
 Since 2012 I've run Takumi Web Services, a one-person web studio in the Toronto area. I don't just hand over a site and leave. I build it, then I keep it running: hosting, updates, backups, security, the lot. Most of my clients have been with me for years.
 
-Most days that means WordPress and PHP. When a client needs a real application, I use Laravel for the API and Vue 3 with TypeScript for the front end. And when a WordPress site needs something no plugin does well, I write the plugin myself. Four of them are below, one is on WordPress.org.
+Most days that means WordPress and PHP. When a client needs a real application, I use Laravel for the API and Vue 3 with TypeScript for the front end. And when a WordPress site needs something no plugin does well, I write the plugin myself. Four of them are below, three are on WordPress.org.
 
-Lately I've been adding AI to client work: Claude API integrations, RAG search on PostgreSQL + pgvector, and the less exciting parts that keep it affordable in production, like rate limits and API budget caps.
+Lately I've been building AI features in my own projects and demos: Claude API integrations, RAG search on PostgreSQL + pgvector, and the less exciting parts that keep it affordable to run, like rate limits and API budget caps.
 
 I work in Japanese and English. A lot of my job is translating requirements between the two.
 
@@ -44,8 +44,8 @@ I work in Japanese and English. A lot of my job is translating requirements betw
 | [parlour](https://github.com/moriyama-dev/parlour) | Client portal for freelance developers: approvals with an append-only log, real-time messaging, invoicing, PWA push. Runs in production. [Try the demo](https://demo-customer-portal.takumi.ca/) | Laravel 13 · Vue 3 · PHPUnit · GitHub Actions |
 | [takumi-private-gate](https://github.com/moriyama-dev/takumi-private-gate) | Makes a WordPress site fully private: forced login, REST API and XML-RPC blocking, lockout after failed logins. [On WordPress.org](https://wordpress.org/plugins/takumi-private-gate/) | PHP · WordPress · Security |
 | [mail-vitals](https://github.com/moriyama-dev/mail-vitals) | Finds out why WordPress email isn't arriving (SPF, DKIM, DMARC, server setup) and logs every message the site sends, with a retry queue. | PHP · WordPress · SMTP |
-| [takumi-vault](https://github.com/moriyama-dev/takumi-vault) | Scheduled database and file backups with one-click restore. Archives live outside the web root, old generations get pruned. | PHP · WordPress · WP-Cron |
-| [takumi-pwa](https://github.com/moriyama-dev/takumi-pwa) | Turns a WordPress site into an installable app with zero setup: manifest, service worker, icons, offline reading. | PHP · WordPress · PWA |
+| [takumi-vault](https://github.com/moriyama-dev/takumi-vault) | Scheduled database and file backups with one-click restore. Archives live outside the web root, old generations get pruned. [On WordPress.org](https://wordpress.org/plugins/takumi-vault/) | PHP · WordPress · WP-Cron |
+| [takumi-pwa](https://github.com/moriyama-dev/takumi-pwa) | Turns a WordPress site into an installable app with zero setup: manifest, service worker, icons, offline reading. [On WordPress.org](https://wordpress.org/plugins/takumi-pwa/) | PHP · WordPress · PWA |
 | [droptime](https://github.com/moriyama-dev/droptime) | Swim meet results for a club's parents and swimmers: latest time vs. previous, progress per event, rank among same-age peers. | PHP 8.2 · MySQL |
 
 ## Side Projects
@@ -71,8 +71,8 @@ Things I build for my own Linux desktop and workflow. Some are finished, some ar
 
 カナダ・オンタリオ州（トロント近郊）在住のフルスタックWebデベロッパーです。
 
-2012年から個人で Takumi Web Services を運営し、カナダと日本のクライアントのWebサイトを作って、その後の運用まで一人で見ています。普段はWordPressとPHPが中心で、アプリが必要な案件ではLaravel（API）とVue 3 + TypeScriptを使います。既存のプラグインで足りない部分は自分でプラグインを書いてきました。
+2012年から個人で Takumi Web Services を運営し、カナダのクライアントのWebサイトを作って、その後の運用まで一人で見ています。普段はWordPressとPHPが中心で、アプリが必要な案件ではLaravel（API）とVue 3 + TypeScriptを使います。既存のプラグインで足りない部分は自分でプラグインを書いてきました。
 
-最近はClaude APIやpgvectorを使ったRAG検索など、AI機能を実案件に組み込む仕事も増えています。
+最近は自分のプロジェクトやデモで、Claude APIやpgvectorを使ったRAG検索など、AI機能を作っています。
 
 日英バイリンガルで、両言語の間で要件を橋渡しすることも多いです。フルタイム・契約どちらでも、リモートまたはハイブリッドのポジションを探しています。
